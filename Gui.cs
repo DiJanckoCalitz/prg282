@@ -79,6 +79,50 @@ namespace project282
 
         private void updateStudent_Click(object sender, EventArgs e)
         {
+            students = dataManager.ReadFile("students.txt");
+
+            if (studentID.Text == "")
+            {
+                errorMessage.Text = $"Please enter student ID";
+                return;
+            }
+
+            foreach (Students student in students)
+            {
+                if (student.Id == studentID.Text)
+                {
+                    if (studentName.Text == "")
+                    {
+                        studentName.Text = student.Name;
+                    }
+                    if (studentAge.Text == "")
+                    {
+                        studentAge.Text = student.Age.ToString();
+                    }
+                    if (studentCourse.Text == "")
+                    {
+                        studentCourse.Text = student.Course;
+                    }
+
+                    student.Id = studentID.Text;
+                    student.Name = studentName.Text;
+                    student.Age = int.Parse(studentAge.Text);
+                    student.Course = studentCourse.Text;
+                    break;
+                }
+                else
+                {
+                    errorMessage.Text = $"Student ID {studentID.Text} not found";
+                }
+            }
+
+            if (students.Count == 0)
+            {
+                errorMessage.Text = $"No students in file to update";
+            }
+
+            dataManager.WriteFile("students.txt", students);
+            mainDataGridView.DataSource = dataManager.ReadFile("students.txt");
         }
 
         private void deleteStudent_Click(object sender, EventArgs e)
