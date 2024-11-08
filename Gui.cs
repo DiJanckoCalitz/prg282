@@ -87,10 +87,15 @@ namespace project282
                 return;
             }
 
+            bool studentFound = false;
+
             foreach (Students student in students)
             {
+
                 if (student.Id == studentID.Text)
                 {
+                    studentFound = true;
+
                     if (studentName.Text == "")
                     {
                         studentName.Text = student.Name;
@@ -110,10 +115,15 @@ namespace project282
                     student.Course = studentCourse.Text;
                     break;
                 }
-                else
-                {
-                    errorMessage.Text = $"Student ID {studentID.Text} not found";
-                }
+            }
+
+            if (!studentFound)
+            {
+                errorMessage.Text = $"Student ID {studentID.Text} not found";
+            }
+            else
+            {
+                errorMessage.Text = "";
             }
 
             if (students.Count == 0)
@@ -133,18 +143,27 @@ namespace project282
                 return;
             }
 
+            bool studentFound = false;
+
             students = dataManager.ReadFile("students.txt");
             foreach (Students student in students)
             {
                 if (student.Id == studentID.Text)
                 {
+                    studentFound = true;
+
                     students.Remove(student);
                     break;
                 }
-                else
-                {
-                    errorMessage.Text = $"Student ID {studentID.Text} not found";
-                }
+            }
+
+            if (!studentFound)
+            {
+                errorMessage.Text = $"Student ID {studentID.Text} not found";
+            }
+            else
+            {
+                errorMessage.Text = "";
             }
 
             if (students.Count == 0)
