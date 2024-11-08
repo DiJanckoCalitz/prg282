@@ -51,5 +51,43 @@ namespace project282
 
             return students;
         }
+
+        public void GenerateReport(string filePath, List<Students> students)
+        {
+            using (StreamWriter writer = new StreamWriter(filePath))
+            {
+                string summery = "";
+
+                var sum = 0;
+                foreach (var student in students)
+                {
+                    sum += student.Age;
+                }
+
+                summery += $"Summery Report\nTotal number of students: {students.Count}\nAverage age: {sum / students.Count}";
+
+                writer.WriteLine(summery);
+            }
+        }
+
+        public string GetReport(string filePath)
+        {
+            string summery = "";
+
+            using (FileStream fileStream = new FileStream(filePath, FileMode.Open))
+            {
+                using (StreamReader streamReader = new StreamReader(fileStream))
+                {
+                    string line;
+                    while ((line = streamReader.ReadLine()) != null)
+                    {
+                        summery += line;
+                        summery += "\n";
+                    }
+                }
+            }
+
+            return summery;
+        }
     }
 }

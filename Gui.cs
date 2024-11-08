@@ -158,6 +158,8 @@ namespace project282
 
         private void generateReport_Click(object sender, EventArgs e)
         {
+            dataManager.GenerateReport("summary.txt", students);
+            summery.Text = dataManager.GetReport("summary.txt");
         }
     }
 }
