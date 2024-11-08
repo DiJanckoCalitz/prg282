@@ -1,0 +1,10 @@
+C:\Users\Brett\source\repos\project282\bin\Debug\project282.exe.config
+C:\Users\Brett\source\repos\project282\bin\Debug\project282.exe
+C:\Users\Brett\source\repos\project282\bin\Debug\project282.pdb
+C:\Users\Brett\source\repos\project282\obj\Debug\project282.csproj.AssemblyReference.cache
+C:\Users\Brett\source\repos\project282\obj\Debug\project282.Gui.resources
+C:\Users\Brett\source\repos\project282\obj\Debug\project282.Properties.Resources.resources
+C:\Users\Brett\source\repos\project282\obj\Debug\project282.csproj.GenerateResource.cache
+C:\Users\Brett\source\repos\project282\obj\Debug\project282.csproj.CoreCompileInputs.cache
+C:\Users\Brett\source\repos\project282\obj\Debug\project282.exe
+C:\Users\Brett\source\repos\project282\obj\Debug\project282.pdb
