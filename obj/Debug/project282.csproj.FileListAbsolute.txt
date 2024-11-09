@@ -8,3 +8,13 @@ C:\Users\Brett\source\repos\project282\obj\Debug\project282.csproj.GenerateResou
 C:\Users\Brett\source\repos\project282\obj\Debug\project282.csproj.CoreCompileInputs.cache
 C:\Users\Brett\source\repos\project282\obj\Debug\project282.exe
 C:\Users\Brett\source\repos\project282\obj\Debug\project282.pdb
+C:\Users\Brett\source\repos\PRG282_project_Brett_wilson_601081_Di-jancko_calitz_600356_joshua_levi_visser_601085\project282\bin\Debug\project282.exe.config
+C:\Users\Brett\source\repos\PRG282_project_Brett_wilson_601081_Di-jancko_calitz_600356_joshua_levi_visser_601085\project282\bin\Debug\project282.exe
+C:\Users\Brett\source\repos\PRG282_project_Brett_wilson_601081_Di-jancko_calitz_600356_joshua_levi_visser_601085\project282\bin\Debug\project282.pdb
+C:\Users\Brett\source\repos\PRG282_project_Brett_wilson_601081_Di-jancko_calitz_600356_joshua_levi_visser_601085\project282\obj\Debug\project282.csproj.AssemblyReference.cache
+C:\Users\Brett\source\repos\PRG282_project_Brett_wilson_601081_Di-jancko_calitz_600356_joshua_levi_visser_601085\project282\obj\Debug\project282.Gui.resources
+C:\Users\Brett\source\repos\PRG282_project_Brett_wilson_601081_Di-jancko_calitz_600356_joshua_levi_visser_601085\project282\obj\Debug\project282.Properties.Resources.resources
+C:\Users\Brett\source\repos\PRG282_project_Brett_wilson_601081_Di-jancko_calitz_600356_joshua_levi_visser_601085\project282\obj\Debug\project282.csproj.GenerateResource.cache
+C:\Users\Brett\source\repos\PRG282_project_Brett_wilson_601081_Di-jancko_calitz_600356_joshua_levi_visser_601085\project282\obj\Debug\project282.csproj.CoreCompileInputs.cache
+C:\Users\Brett\source\repos\PRG282_project_Brett_wilson_601081_Di-jancko_calitz_600356_joshua_levi_visser_601085\project282\obj\Debug\project282.exe
+C:\Users\Brett\source\repos\PRG282_project_Brett_wilson_601081_Di-jancko_calitz_600356_joshua_levi_visser_601085\project282\obj\Debug\project282.pdb
